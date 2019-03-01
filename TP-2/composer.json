@@ -1,0 +1,23 @@
+{
+  "name": "julioep/car",
+  "description": "Gestionnaire de garage",
+  "type": "Library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julio",
+      "email": "julio.espadas@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Car\\": "src/"
+    }
+  }
+}
